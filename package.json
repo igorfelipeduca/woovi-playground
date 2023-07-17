@@ -1,0 +1,29 @@
+{
+  "name": "woovi-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "es": "node -r esbuild-register"
+  },
+  "keywords": [],
+  "author": "igorfelipeduca",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@woovi/apiwithlog": "^1.0.0",
+    "core-js-pure": "^3.31.0",
+    "debug": "^4.3.4",
+    "ms": "^2.1.2",
+    "regenerator-runtime": "^0.13.11",
+    "reqlib": "^1.0.13"
+  },
+  "devDependencies": {
+    "@types/dotenv-safe": "^8.1.2",
+    "@types/node": "^20.3.2",
+    "dotenv-safe": "^8.2.0",
+    "es": "node --no-experimental-fetch -r esbuild-register -r isomorphic-fetch",
+    "esbuild": "^0.18.10",
+    "esbuild-register": "^3.4.2"
+  }
+}

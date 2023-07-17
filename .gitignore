@@ -1,0 +1,9 @@
+#environments
+.env.local
+.env
+
+node_modules
+
+# ignoring yarn files
+yarn.lock
+yarn-error.log
